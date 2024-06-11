@@ -1,9 +1,6 @@
 import React from 'react';
 import './LogoTape.css';
 
-
-
-
 const LogoTape = () => {
     const logos = [
         { src: '/image/angazny-white-logo.png', alt: 'Company 1' },
@@ -16,18 +13,20 @@ const LogoTape = () => {
         { src: '/image/logo.png', alt: 'Company 10' },
         { src: '/image/Group-313.webp', alt: 'Company 12' },
         { src: '/image/Group-2.png', alt: 'Company 13' },
+    ];
 
-
-      ];
-  return (
-    <div className="logo-tape">
-      <div className="logo-tape-content">
-        {logos.map((logo, index) => (
-          <img key={index} src={logo.src} alt={logo.alt} />
-        ))}
-      </div>
-    </div>
-  );
+    return (
+        <div className="logo-tape">
+            <div className="logo-tape-content">
+                {logos.map((logo, index) => (
+                    <img key={index} src={logo.src} alt={logo.alt} />
+                ))}
+                {logos.map((logo, index) => (
+                    <img key={`repeat-${index}`} src={logo.src} alt={logo.alt} />
+                ))}
+            </div>
+        </div>
+    );
 };
 
 export default LogoTape;

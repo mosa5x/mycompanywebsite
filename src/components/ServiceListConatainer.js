@@ -28,15 +28,18 @@ const ServiceListConatainer = ()=>{
                 <Header toggleHomeVisibility={toggleHomeVisibility} />
                  {isHomeVisible && <ServiceList/>}
             </div>
-            <div className="Service_gap">
-                <h1>خدماتنا</h1>
-            </div>
-            <div className="servislist">
-                <WebDevelopment />
-                <Design/>
-                <Seo/>
+            <div className="our_servies">
+                <div className="Service_gap">
+                    <h1>خدماتنا</h1>
+                </div>
+                <div className="servislist">
+                    <WebDevelopment />
+                    <Design/>
+                    <Seo/>
 
+                </div>
             </div>
+
 
             <div className="WhyChooseUs_Home">
                 <WhyChooseUs/>

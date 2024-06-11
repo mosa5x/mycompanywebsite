@@ -92,7 +92,7 @@
 }
 
   
-  @media (min-width: 768px) {
+  @media (min-width: 1025px) {
     .servislist {
       display: flex;
       flex-direction: row;
@@ -126,3 +126,26 @@
     }
   }
   
+
+  @media  (min-width: 700px) and (max-width: 1025px){
+    .servislist {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      
+      background-size: cover;
+      background-position: center;
+      background-color: rgb(219, 207, 183);
+    }
+  
+  
+    .Service_gap {
+      background-color: rgb(219, 207, 183);
+      padding-top: 60px;
+      text-align: center;
+
+    }
+    .our_servies{
+      background-color: rgb(219, 207, 183);
+    }
+  }

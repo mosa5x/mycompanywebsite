@@ -37,14 +37,17 @@ const HomeContainer = () => {
       <div className="WhyChooseUs_Home">
         <WhyChooseUs />
       </div>
-      <div className="Service_gap">
-        <h1>خدماتنا</h1>
-      </div>
-      <div className="servislist">
-        <WebDevelopment />
-        <Design />
-        <Seo />
-      </div>
+      <div className="our_servies">
+                <div className="Service_gap">
+                    <h1>خدماتنا</h1>
+                </div>
+                <div className="servislist">
+                    <WebDevelopment />
+                    <Design/>
+                    <Seo/>
+
+                </div>
+        </div>
       <div className="WhyNeedWebsite_Home">
         <WhyNeedWebsite />
       </div>

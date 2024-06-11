@@ -21,8 +21,7 @@ const Footer = () => {
                             <p>الهاتف: 07735875881</p>
                         </div>
                         <div className="footer-social">
-                            <a href="#" className="social-link"><i className="fab fa-facebook-f"></i></a>
-                            <a href="#" className="social-link"><i className="fab fa-twitter"></i></a>
+                            <a href="https://www.facebook.com/profile.php?id=61560832797832" className="social-link"><i className="fab fa-facebook-f"></i></a>
                             <a href="#" className="social-link"><i className="fab fa-linkedin-in"></i></a>
                         </div>
                     </div>

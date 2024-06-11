@@ -44,7 +44,7 @@
   margin: 5px 0;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1024px) {
   .container_WebDevelopment {
     height: auto;
     flex-direction: column;
