@@ -1,0 +1,87 @@
+#why-need-website {
+    background-color: transparent;
+    padding: 40px 20px;
+    text-align: right;
+    direction: rtl;
+  }
+  
+  #why-need-website .container {
+    margin: 0 auto;
+    padding: 0 20px;
+    text-align: center;
+  }
+  
+  #why-need-website h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  #why-need-website .reasons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  #why-need-website .reason {
+    flex: 1;
+    min-width: 300px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: 0.9s;
+  }
+  
+  #why-need-website .reason h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #007BFF;
+  }
+  
+  #why-need-website .reason p {
+    font-size: 1em;
+    margin-bottom: 10px;
+    color: #666;
+  }
+  
+  #why-need-website .reason p strong {
+    color: #333;
+  }
+  
+  #why-need-website .reason:hover {
+    background-color: #007BFF;
+    color: #fff;
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  #why-need-website .reason:hover h3 {
+    color: #fff;
+  }
+  
+  #why-need-website .reason:hover p {
+    color: #fff;
+  }
+  
+  #why-need-website .reason:hover p strong {
+    color: #fff;
+  }
+  
+  @media (max-width: 600px) {
+    #why-need-website .container {
+      padding: 0 10px;
+    }
+  
+    #why-need-website h2 {
+      font-size: 2em;
+    }
+  
+    #why-need-website .reason h3 {
+      font-size: 1.2em;
+    }
+  
+    #why-need-website .reason p {
+      font-size: 0.9em;
+    }
+  }
+  

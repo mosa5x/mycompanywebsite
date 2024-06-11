@@ -1,0 +1,80 @@
+/* Home.css */
+.HomeContainer {
+    background-image: url('/public/image/photo-1621839673705-6617adf9e890.jpg');
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    padding: 0rem 0rem;
+    position: relative;
+    
+  }
+  
+  .HomeContainer::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+  }
+  
+  .HomeContainer > * {
+    position: relative;
+    z-index: 2;
+  }
+  
+  .HomeFirstSection {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    color: #fff;
+  }
+  
+  .HomeFirstSection h1 {
+    font-family: "Tajawal", Sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    color: #ffffff;
+  }
+  
+  .HomeFirstSection h1 span {
+    color: #ff0c5d;
+    font-size: 60px;
+    line-height: 75px;
+    display: inline-block;
+    margin-left: 500px;
+  }
+  
+  .HomeFirstSection p {
+    font-size: 20px;
+    line-height: 35px;
+  }
+  
+  .HomeFirstSection .p1 {
+    margin-top: 50px;
+  }
+  
+  @media (max-width: 600px) {
+    .HomeContainer {
+      padding: 0.5rem 1rem;
+    }
+  
+    .HomeFirstSection h1 {
+      font-size: 30px;
+    }
+  
+    .HomeFirstSection h1 span {
+      font-size: 40px;
+      margin-left: 0;
+    }
+  
+    .HomeFirstSection p {
+      font-size: 16px;
+    }
+  
+    .HomeFirstSection .p1 {
+      margin-top: 30px;
+    }
+  }

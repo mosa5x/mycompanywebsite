@@ -1,0 +1,76 @@
+.container_Seo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.hexagon_Seo {
+  width: 450px;
+  height: 450px;
+  background: #198a48;
+  position: relative;
+  clip-path: polygon(50% 0%, 93% 25%, 93% 75%, 50% 100%, 7% 75%, 7% 25%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.9s ease-out;
+}
+
+.hexagon_Seo:hover {
+  background-color: #38c773;
+}
+
+.hexagon_Seo .content {
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.hexagon_Seo h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.hexagon_Seo ul {
+  list-style: none;
+  padding: 0;
+}
+
+.hexagon_Seo li {
+  margin: 5px 0;
+}
+
+@media (max-width: 600px) {
+  .container_Seo {
+    height: auto;
+    flex-direction: column;
+  }
+
+  .hexagon_Seo {
+    width: 100%;
+    height: auto;
+    margin: 10px 0;
+    clip-path: none;
+    border-radius: 10px;
+  }
+
+  .hexagon_Seo .content {
+    padding: 10px;
+  }
+
+  .hexagon_Seo h2 {
+    font-size: 1.2em;
+  }
+
+  .hexagon_Seo ul {
+    padding: 0 10px;
+  }
+
+  .hexagon_Seo li {
+    margin: 3px 0;
+  }
+}
