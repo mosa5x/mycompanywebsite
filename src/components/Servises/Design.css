@@ -44,7 +44,7 @@
   margin: 5px 0;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1368px) {
   .container_Design {
     height: auto;
     flex-direction: column;
@@ -75,4 +75,34 @@
   }
 }
 
+
+@media (min-width: 1200px) and (max-width: 1370px) {
+  .hexagon_Design {
+    width: 100%;
+    height: auto;
+    margin: 20px 0;
+    clip-path: none;
+    border-radius: 10px;
+  }
+
+  .hexagon_Design .content {
+    padding: 20px;
+  }
+
+  .hexagon_Design h2 {
+    font-size: 2rem;
+  }
+
+  .hexagon_Design ul {
+    padding: 0 30px;
+  }
+
+  .hexagon_Design li {
+    font-size: 1.4rem;
+
+    margin: 5px 0;
+  }
+}
+
+ 
 

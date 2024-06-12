@@ -44,7 +44,7 @@
   margin: 5px 0;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1368px) {
   .container_Seo {
     height: auto;
     flex-direction: column;
@@ -74,3 +74,33 @@
     margin: 3px 0;
   }
 }
+
+
+@media (min-width: 1200px) and (max-width: 1370px) {
+  .hexagon_Seo {
+    width: 100%;
+    height: auto;
+    margin: 20px 0;
+    clip-path: none;
+    border-radius: 10px;
+  }
+
+  .hexagon_Seo .content {
+    padding: 20px;
+  }
+
+  .hexagon_Seo h2 {
+    font-size: 2rem;
+  }
+
+  .hexagon_Seo ul {
+    padding: 0 30px;
+  }
+
+  .hexagon_Seo li {
+    font-size: 1.4rem;
+
+    margin: 5px 0;
+  }
+}
+

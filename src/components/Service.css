@@ -92,7 +92,7 @@
 }
 
   
-  @media (min-width: 1025px) {
+  @media (min-width: 1368px) {
     .servislist {
       display: flex;
       flex-direction: row;
@@ -127,7 +127,7 @@
   }
   
 
-  @media  (min-width: 700px) and (max-width: 1025px){
+  @media  (min-width: 700px) and (max-width: 1368px){
     .servislist {
       display: flex;
       flex-direction: row;
@@ -149,3 +149,26 @@
       background-color: rgb(219, 207, 183);
     }
   }
+
+
+  @media (min-width: 1200px) and (max-width: 1370px) {
+    .servislist {
+      display: block;
+      
+      background-size: cover;
+      background-position: center;
+      background-color: #fff;
+    }
+    .Service_gap {
+      background-color: #fff;
+      padding-top: 60px;
+      text-align: center;
+    }
+    .our_servies{
+      background-color:#fff;
+    }
+
+ 
+
+  }
+  

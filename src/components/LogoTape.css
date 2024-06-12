@@ -12,7 +12,7 @@
     display: flex;
     animation: moveTape 30s linear infinite;
     width: max-content;
-    padding: 1.5rem 0;
+    padding: 2rem 0;
 }
 
 .logo-tape-content img {
@@ -40,7 +40,7 @@
     }
 }
 
-@media (min-width: 700px) and (max-width: 1025px) {
+@media (min-width: 700px) and (max-width: 1368px) {
     .logo-tape-content {
         padding-top: 4rem;
     }
